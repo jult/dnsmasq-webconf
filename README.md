@@ -25,7 +25,9 @@ Simple DHCP Configuration Web UI for dnsmasq
 ```
 # python3 ./dnsmasq-webconf/app/index.py [port_number] [--hosts path_to_hosts_file] [--leases path_to_leases_file --config] [path_to_dnsmasq_config]
 ```
-Example command:
-python3 ~/index.py 888 --hosts /etc/hosts --leases /opt/dnsmasq/dhcp.leases --config /etc/dnsmasq.conf
-
 * access with your browser: http://hostname:port_number
+
+Example command:
+# python3 ~/index.py 888 --hosts /etc/hosts --leases /opt/dnsmasq/dhcp.leases --config /etc/dnsmasq.conf
+
+http://hostname:888
